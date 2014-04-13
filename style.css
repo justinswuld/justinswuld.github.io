@@ -54,7 +54,7 @@ a:hover {
 .nav1:hover {
     text-decoration: none;
     background: #66c0c6;
-    transition: .2s;
+    transition: background .2s;
 }
 
 .nav2 {
@@ -69,6 +69,23 @@ a:hover {
 }
 
 .nav2:hover {
+    text-decoration: none;
+    background: #66c0c6;
+    transition: .2s;
+}
+
+.nav3 {
+    display: table;
+    padding: .5em;
+    font-size: 18pt;
+    color: #FFF;
+    background: #c66c66;
+    margin: 1em auto;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+.nav3:hover {
     text-decoration: none;
     background: #66c0c6;
     transition: .2s;
@@ -208,6 +225,13 @@ a:hover {
 }
 
 .stats {
+    max-width: 640px;
+    text-align: left;
+    margin: 0 auto;
+    color: gray;
+}
+
+.hobbies {
     max-width: 640px;
     text-align: left;
     margin: 0 auto;
